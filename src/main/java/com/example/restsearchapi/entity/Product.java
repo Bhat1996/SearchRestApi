@@ -25,8 +25,8 @@ public class Product {
     private String description;
     private boolean active;
     private String imageUrl;
-    @CreationTimestamp
-    private LocalDateTime createdDate;
-    @UpdateTimestamp
-    private LocalDateTime updatedDate;
+//    @CreationTimestamp
+//    private LocalDateTime createdDate;
+//    @UpdateTimestamp
+//    private LocalDateTime updatedDate;
 }

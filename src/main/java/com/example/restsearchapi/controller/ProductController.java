@@ -19,8 +19,8 @@ public class ProductController {
     }
 
     @GetMapping("/search")
-//    @Cacheable(value = "productService", key = "#query")
-    public ResponseEntity<List<Product>> searchProducts(@RequestParam String query){
+//   @Cacheable(value = "productService", key = "#query")
+    public ResponseEntity<?> searchProducts(@RequestParam String query){
         return ResponseEntity.ok(productService.searchProducts(query));
     }
 
